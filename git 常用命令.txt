@@ -10,3 +10,4 @@ git branch -vv  本地分支和远程分支的追踪关系
 git branch name 创建分支，并不会自动切换分支
 git checkout name 切换分支
 git status 状态
+ git branch --set-upstream-to=origin/master master 指定追踪关系
