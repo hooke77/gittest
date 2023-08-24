@@ -1,0 +1,12 @@
+git add .
+git commit -m "info"
+git push origin master:master   [remoteName] [本地分支名]：[远程分支名]
+git push origin master   [remoteName] [本地分支名]  送的是远程和本地分支名相同的分子
+git remote 本地的远程库
+git branch
+git branch -a 查看所有分支
+git branch -r 远程分支
+git branch -vv  本地分支和远程分支的追踪关系
+git branch name 创建分支，并不会自动切换分支
+git checkout name 切换分支
+git status 状态
